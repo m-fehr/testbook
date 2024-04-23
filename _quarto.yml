@@ -11,15 +11,23 @@ book:
     - summary.qmd
     - references.qmd
 
+sidebar:
+  logo: "cover.light.png"
+
 bibliography: references.bib
+
+
 
 format:
   html:
     theme:
       light: cosmo
       dark: [cosmo, theme-dark.scss]
-  pdf:
-    documentclass: scrreprt
+    include-after-body:
+      text: |
+        <script type="application/javascript" src="light-dark.js"></script>
+#  pdf:
+#    documentclass: scrreprt
 
 
 
