@@ -12,7 +12,7 @@ book:
     - references.qmd
 
   sidebar:
-    logo: "cce_logo_small.light.png"
+    logo: "content/cce_logo_small.light.png"
 
 bibliography: references.bib
 
@@ -32,4 +32,4 @@ format:
 
 
 resources: 
-  - "cce_logo_small.dark.png"
+  - "content/cce_logo_small.dark.png"
