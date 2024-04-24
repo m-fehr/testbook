@@ -10,9 +10,10 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
-
+  navbar:
+    logo: "content/cce_logo_smalllight.png"
   sidebar:
-    logo: "content/cce_logo_small.light.png"
+    logo: "content/cce_logo_smalllight.png"
 
 bibliography: references.bib
 
@@ -32,4 +33,4 @@ format:
 
 
 resources: 
-  - "content/cce_logo_small.dark.png"
+  - "content/cce_logo_small.png"
