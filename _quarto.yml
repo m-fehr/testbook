@@ -11,6 +11,7 @@ book:
     - summary.qmd
     - references.qmd
   sidebar:
+    title: " "
     logo: "content/cce_logo_smalllight.png"
 
 bibliography: references.bib
