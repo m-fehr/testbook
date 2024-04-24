@@ -10,8 +10,6 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
-  navbar:
-    logo: "content/cce_logo_smalllight.png"
   sidebar:
     logo: "content/cce_logo_smalllight.png"
 
