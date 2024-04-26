@@ -6,6 +6,7 @@
     "section": "",
     "text": "Overview",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "General Information",
     "text": "General Information\nThe lecture Fire Simulations at the University of Wuppertal is organised by the chair of Computational Civil Engineering (CCE). The 2019 founded chair is mainly concerned with the research and development of new computer-based models. The focus of the application is the numerical simulation of fire and smoke propagation in buildings.\n\nThis is the first year that we offer this script. The motivation to create this script is on the one hand to give the participants of the lecture a possibility to read the contents. And on the other hand, to make this content freely available to external or former participants.\nHowever, this script is very short and will remain so. Much of the content is already available in greater depth, so that reference is made to the relevant passages - instead of simply copying them.\nAs the script is under development, we welcome constructive suggestions and your feedback. This way you can support our whole fire science community.\nFor the University of Wuppertal students: All organisational information on the procedure can be found on the CCE website on the fire simulations lecture.",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "Contents of the Lecture Notes",
     "text": "Contents of the Lecture Notes\n\nIt is planned, that this script will not only contain the contents of the lecture Fire Simulations but also other contents linked to this lecture, such as FDS Data Analysis and Using High Performance Computers for Fire Simulations. In the course of the lecture, we will announce the contents relevant for you accordingly.\nThe script also contains exercises for all topics, with and without solution paths, but always with a result or the possibility of validating your solution.\nDo not print out the script or save it elsewhere. This way you have the latest version, which is continuously improved and supplemented with content.\nThe script will always remain freely accessible.\nThe lecture notes and exercises are designed for FDS version 6.7.5, and thus may not be valid / reproducible for other versions.",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -36,6 +39,7 @@
     "section": "Contributors",
     "text": "Contributors\nContributors to the development of the script and the exercises are (in alphabetical order):\n\nLukas Arnold\nKristian Börger\nTristan Hehnen\nLilli Klein\nKaren de Lannoye\nKeyvan Najarian\nTássia Quaresma\nJan Vogelsang\nMy Linh Würzburger",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -46,6 +50,7 @@
     "section": "Theses",
     "text": "Theses\nWe offer theses (BA, MA, PhD) on many different topics.\n\nan overview of topics and previously supervised theses can be found on the thesis website\nThe overview of our publications can also help you find\nIf you are interested, please contact Lukas Arnold @ University of Wuppertal or @ Forschungszentrum Jülich",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -56,6 +61,7 @@
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThe software tools used in the lecture and the creation of the materials are mostly freely available, open source and developed by volunteers. In particular, we would like to thank the following teams for their work\n\nTeam of FDS\nTeam of Jupyter\nTeam of JupyterLab\nTeam of Jupter Book",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -66,6 +72,7 @@
     "section": "Contact",
     "text": "Contact\nHow to reach us:\n\nAs a participant of the lecture: best via the associated moodle course\nExternal interested parties best used our email list.\nContact details for individuals can be found on the staff website",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -76,6 +83,7 @@
     "section": "License",
     "text": "License\nThese lecture notes and tools are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.",
     "crumbs": [
+      "Introduction",
       "Overview"
     ]
   },
@@ -84,8 +92,9 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n2 Summary\nIn summary, this book has no content whatsoever.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n2 Summary\nIn summary, this book has no content whatsoever.\n\n\nTeam Fire Dynamics\nThe Team Fire Dynamics is a joint team of members of the chair of Computational Civil Engineering (CCE) at the University of Wuppertal (BUW) and the Fire Dynamics division, which is part of the Institute for Advanced Simulation (IAS-7) at the Forschungszentrum Jülich (FZJ).\nThe CCE chair is mainly concerned with the research and development of new computer-based models. The focus of the application here is fire and smoke propagation in buildings.\nIn teaching, we focus on computer science and numerics. The main lectures we offer are Computer Science and Fire Simulations. In addition to this, we regularly offer workshops on data analysis and Raspberry Pi.\nThe simulation models we develop and use are mostly based on computational fluid dynamics (CFD). In addition, we use genetic optimisation algorithms and image processing methods. What they all have in common is the use of parallel computers, such as the supercomputer JURECA at the Forschungszentrum Jülich.\n\n\n\n\n\n\nFigure 2.1: JURECA supercomputer. Source: Forschungszentrum Jülich\n\n\n\nOur research activities include the use and further development of FDS (Fire Dynamics Simulator), which can be used to calculate the spread of smoke and fire in buildings. On the other hand, the development of new simulation tools. These include, for example, the simulation software ARTSS (Accelerator-based Real-Time Smoke Simulator) or PROPTI. The research is carried out in close cooperation with the Fire Dynamics department at the Jülich Research Centre.\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
+      "Introduction",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
