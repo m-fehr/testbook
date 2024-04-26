@@ -33,13 +33,9 @@ format:
     theme:
       light: flatly
       dark: [darkly, theme-dark.scss]
-    # include-after-body:
-    #   text: |
-    #     <script type="application/javascript" src="light-dark.js"></script>
-    #     <script type="application/javascript" src="nav.js"></script>
     include-after-body:
-      - nav.js
-      - light-dark.js
+      text: |
+        <script type="application/javascript" src="nav.js"></script>
 #  pdf:
 #    documentclass: scrreprt
 
@@ -48,3 +44,6 @@ format:
 resources: 
   - "content/cce_logo_small.png"
   - "nav.js"
+
+
+# <script type="application/javascript" src="light-dark.js"></script>
