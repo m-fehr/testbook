@@ -9,7 +9,7 @@ book:
     - part: Introduction
       chapters:
         - index.qmd
-        - intro.qmd
+        - content/intro.qmd
     - part: Second
       chapters:        
         - summary.qmd
