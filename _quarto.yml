@@ -44,3 +44,4 @@ format:
 
 resources: 
   - "content/cce_logo_small.png"
+  - "nav.js"
