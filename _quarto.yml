@@ -34,7 +34,7 @@ format:
 #  pdf:
 #    documentclass: scrreprt
 
-  page-footer: "These lecture notes and tools are licensed under the
+page-footer: "These lecture notes and tools are licensed under the
 [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) 
 <img src='https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg' />"
 
