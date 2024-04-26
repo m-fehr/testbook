@@ -31,8 +31,8 @@ execute:
 format:
   html:
     theme:
-      light: cosmo
-      dark: [cosmo, theme-dark.scss]
+      light: flatly
+      dark: [darkly, theme-dark.scss]
     include-after-body:
       text: |
         <script type="application/javascript" src="light-dark.js"></script>
