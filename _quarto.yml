@@ -38,8 +38,8 @@ format:
     #     <script type="application/javascript" src="light-dark.js"></script>
     #     <script type="application/javascript" src="nav.js"></script>
     include-after-body:
-    - nav.js
-    - light-dark.js
+      - nav.js
+      - light-dark.js
 #  pdf:
 #    documentclass: scrreprt
 
