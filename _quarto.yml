@@ -6,10 +6,14 @@ book:
   author: "Norah Jones"
   date: "4/23/2024"
   chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: Introduction
+      chapters:
+        - index.qmd
+        - intro.qmd
+    - part: Second
+      chapters:        
+        - summary.qmd
+        - references.qmd
   sidebar:
     title: " "
     logo: "content/cce_logo_smalllight.png"
