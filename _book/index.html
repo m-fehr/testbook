@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">Overview</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -149,7 +149,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#general-information" id="toc-general-information" class="nav-link" data-scroll-target="#general-information">General Information</a></li>
+  <li><a href="#contents-of-the-lecture-notes" id="toc-contents-of-the-lecture-notes" class="nav-link" data-scroll-target="#contents-of-the-lecture-notes">Contents of the Lecture Notes</a></li>
+  <li><a href="#contributors" id="toc-contributors" class="nav-link" data-scroll-target="#contributors">Contributors</a></li>
+  <li><a href="#theses" id="toc-theses" class="nav-link" data-scroll-target="#theses">Theses</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -187,12 +196,77 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<section id="overview" class="level1 unnumbered">
+<h1 class="unnumbered">Overview</h1>
+<section id="general-information" class="level2">
+<h2 class="anchored" data-anchor-id="general-information">General Information</h2>
+<p>The lecture <em>Fire Simulations</em> at the University of Wuppertal is organised by the chair of <a href="https://cce.uni-wuppertal.de/">Computational Civil Engineering (CCE)</a>. The 2019 founded chair is mainly concerned with the research and development of new computer-based models. The focus of the application is the numerical simulation of fire and smoke propagation in buildings.</p>
+<p><img src="./content/00_overview/figs/fire_banner.png" class="img-fluid"></p>
+<p>This is the first year that we offer this script. The motivation to create this script is on the one hand to give the participants of the lecture a possibility to read the contents. And on the other hand, to make this content freely available to external or former participants.</p>
+<p>However, this script is very short and will remain so. Much of the content is already available in greater depth, so that reference is made to the relevant passages - instead of simply copying them.</p>
+<p>As the script is under development, we welcome constructive suggestions and your feedback. This way you can support our whole fire science community.</p>
+<p><strong>For the University of Wuppertal students: All organisational information on the procedure can be found on the <a href="https://cce.uni-wuppertal.de/de/lehre/numerische-brandsimulationen.html">CCE website on the fire simulations lecture</a>.</strong></p>
+</section>
+<section id="contents-of-the-lecture-notes" class="level2">
+<h2 class="anchored" data-anchor-id="contents-of-the-lecture-notes">Contents of the Lecture Notes</h2>
+<ul>
+<li>It is planned, that this script will not only contain the contents of the lecture <em>Fire Simulations</em> but also other contents linked to this lecture, such as <em>FDS Data Analysis</em> and <em>Using High Performance Computers for Fire Simulations</em>. In the course of the lecture, we will announce the contents relevant for you accordingly.</li>
+<li>The script also contains exercises for all topics, with and without solution paths, but always with a result or the possibility of validating your solution.</li>
+<li>Do not print out the script or save it elsewhere. This way you have the latest version, which is continuously improved and supplemented with content.</li>
+<li>The script will always remain freely accessible.</li>
+<li>The lecture notes and exercises are designed for <strong>FDS version 6.7.5</strong>, and thus may not be valid / reproducible for other versions.</li>
+</ul>
+</section>
+<section id="contributors" class="level2">
+<h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
+<p>Contributors to the development of the script and the exercises are (in alphabetical order):</p>
+<ul>
+<li>Lukas Arnold</li>
+<li>Kristian Börger</li>
+<li>Tristan Hehnen</li>
+<li>Lilli Klein</li>
+<li>Karen de Lannoye</li>
+<li>Keyvan Najarian</li>
+<li>Tássia Quaresma</li>
+<li>Jan Vogelsang</li>
+<li>My Linh Würzburger</li>
+</ul>
+</section>
+<section id="theses" class="level2">
+<h2 class="anchored" data-anchor-id="theses">Theses</h2>
+<p>We offer theses (BA, MA, PhD) on many different topics.</p>
+<ul>
+<li>an overview of topics and previously supervised theses can be found on the <a href="https://cce.uni-wuppertal.de/en/theses/">thesis website</a></li>
+<li>The <a href="https://cce.uni-wuppertal.de/en/research/">overview of our publications</a> can also help you find</li>
+<li>If you are interested, please contact Lukas Arnold <a href="https://cce.uni-wuppertal.de/en/team/">@ University of Wuppertal</a> or <a href="https://www.fz-juelich.de/ias/ias-7/EN/AboutUs/Staff/Current/Arnold_Lukas/main.html">@ Forschungszentrum Jülich</a></li>
+</ul>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>The software tools used in the lecture and the creation of the materials are mostly freely available, open source and developed by volunteers. In particular, we would like to thank the following teams for their work</p>
+<ul>
+<li>Team of <a href="https://github.com/firemodels/fds">FDS</a></li>
+<li>Team of <a href="https://github.com/jupyter/jupyter">Jupyter</a></li>
+<li>Team of <a href="https://github.com/jupyterlab">JupyterLab</a></li>
+<li>Team of <a href="https://github.com/jupyter/jupyter-book">Jupter Book</a></li>
+</ul>
+</section>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<p>How to reach us:</p>
+<ul>
+<li>As a participant of the lecture: best via the associated moodle course</li>
+<li>External interested parties best used our <a href="mailto:cce@lists.uni-wuppertal.de">email list</a>.</li>
+<li>Contact details for individuals can be found on the <a href="https://cce.uni-wuppertal.de/en/team/">staff website</a></li>
+</ul>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>These lecture notes and tools are licensed under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<p><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
