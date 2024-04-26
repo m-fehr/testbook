@@ -218,6 +218,61 @@ J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https
 
 
 </main> <!-- /main -->
+// Javascript code to enable Arrow Key navigation 
+
+document.addEventListener("keydown", function(event) {
+    // Check if the pressed key is the left arrow key (key code 37)
+    if (event.code === "ArrowLeft") {
+      // Redirect to the previous page
+      var previousLink = document.querySelector(".nav-page-previous a");
+      if (previousLink) {
+        window.location.href = previousLink.getAttribute("href");
+      }
+    }
+    // Check if the pressed key is the right arrow key (key code 39)
+    else if (event.code === "ArrowRight") {
+      // Redirect to the next page
+      var nextLink = document.querySelector(".nav-page-next a");
+      if (nextLink) {
+        window.location.href = nextLink.getAttribute("href");
+      }
+    }
+  });
+// Author: Mickaël Canouil
+// Version: &lt;1.0.0&gt;
+// Description: Change image src depending on body class (quarto-light or quarto-dark)
+// License: MIT
+function updateImageSrc() {
+    var bodyClass = window.document.body.classList;
+    var images = window.document.getElementsByTagName('img');
+    for (var i = 0; i &lt; images.length; i++) {
+      var image = images[i];
+      var src = image.src;
+      var newSrc = src;
+      if (bodyClass.contains('quarto-light') &amp;&amp; src.includes('.dark')) {
+        newSrc = src.replace('.dark', '.light');
+      } else if (bodyClass.contains('quarto-dark') &amp;&amp; src.includes('.light')) {
+        newSrc = src.replace('.light', '.dark');
+      }
+      if (newSrc !== src) {
+        image.src = newSrc;
+      }
+    }
+  }
+  
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'attributes' &amp;&amp; mutation.attributeName === 'class') {
+        updateImageSrc();
+      }
+    });
+  });
+  
+  observer.observe(window.document.body, {
+    attributes: true
+  });
+  
+  updateImageSrc();
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
