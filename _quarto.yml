@@ -33,10 +33,13 @@ format:
     theme:
       light: flatly
       dark: [darkly, theme-dark.scss]
+    # include-after-body:
+    #   text: |
+    #     <script type="application/javascript" src="light-dark.js"></script>
+    #     <script type="application/javascript" src="nav.js"></script>
     include-after-body:
-      text: 
-        - <script type="application/javascript" src="light-dark.js"></script>
-        - <script type="application/javascript" src="nav.js"></script>
+    - nav.js
+    - light-dark.js
 #  pdf:
 #    documentclass: scrreprt
 
