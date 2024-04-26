@@ -34,9 +34,9 @@ format:
       light: flatly
       dark: [darkly, theme-dark.scss]
     include-after-body:
-      text: |
-        <script type="application/javascript" src="light-dark.js"></script>
-        <script type="application/javascript" src="nav.js"></script>
+      text: 
+        - <script type="application/javascript" src="light-dark.js"></script>
+        - <script type="application/javascript" src="nav.js"></script>
 #  pdf:
 #    documentclass: scrreprt
 
